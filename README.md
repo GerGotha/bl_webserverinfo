@@ -1,4 +1,4 @@
-# bl_server_info
+# bl_webserverinfo
 
 - Official Taleworlds documentation
 https://moddocs.bannerlord.com/multiplayer/hosting_server/
@@ -19,4 +19,12 @@ Tournament admins may also use it to remotely observe player IDs in an ongoing m
   `http://YOURSERVERIP:PORT/server_info/warband` - Returns server configuration in a json format. The `?xml=1` query parameter will once again return XML instead.
 
 ![image](https://github.com/GerGotha/bl_webserverinfo/assets/1354209/6d84a783-7bd2-4b60-ae35-515b2cd364df)
+
+- Installation
+The installation is quiete simple. Just download the zip directory or build the project on your own. Extract the WebServerInfo directory into your `Mount & Blade II Dedicated Server/Modules` folder.
+![image](https://github.com/GerGotha/bl_webserverinfo/assets/1354209/5baa54dd-fcb2-4624-8643-5719fcf4f09c)
+
+After that add the `WebServerInfo` module to your server startup at the end. Example: `_MODULES_*Native*Multiplayer*WebServerInfo*_MODULES_`
+
+If you build the project on your own, do not forget to add `MB_SERVER_PATH` environment variable. `MB_SERVER_PATH` should point to your `Mount & Blade II Dedicated Server` directory.
 
