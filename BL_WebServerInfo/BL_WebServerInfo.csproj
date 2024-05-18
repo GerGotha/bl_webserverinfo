@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<ProcessorArchitecture>AMD64</ProcessorArchitecture>
@@ -22,6 +21,9 @@
 		<Exec Command="xcopy /Y /I &quot;$(OutputPath)\*.*&quot; &quot;$(MB_SERVER_PATH)\Modules\$(ModuleName)\bin\Linux64_Shipping_Server\&quot;" />
 	</Target>
 	<ItemGroup>
+		<ContentWithTargetPath Include="SubModule.xml" TargetPath="..\..\%(Identity)" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup>
+	<ItemGroup>
 		<Reference Include="$(MB_SERVER_PATH)\bin\Win64_Shipping_Server\TaleWorlds.*.dll">
 			<Private>False</Private>
 		</Reference>
@@ -39,9 +41,6 @@
 		<Reference Remove="$(MB_SERVER_PATH)/bin/Win64_Shipping_Server/TaleWorlds.Native.dll" />
 		<!-- These libraries cause dependency conflicts. -->
 		<Reference Remove="$(MB_SERVER_PATH)/bin/Win64_Shipping_Server/TaleWorlds.Starter.DotNetCore.dll" />
-		<!--<Reference Remove="$(MB_SERVER_PATH)/bin/Win64_Shipping_Server/TaleWorlds.MountAndBlade.DedicatedCustomServer.MapServer.dll" />-->
-		<!--<Reference Remove="$(MB_SERVER_PATH)/bin/Win64_Shipping_Server/TaleWorlds.MountAndBlade.DedicatedCustomServer.WebPanel.Views.dll" />-->
-		<!--<Reference Remove="$(MB_SERVER_PATH)/bin/Win64_Shipping_Server/TaleWorlds.MountAndBlade.DedicatedCustomServer.WebPanel.dll" />-->
 	</ItemGroup>
 	<ItemGroup>
 	  <Content Include="SubModule.xml" />

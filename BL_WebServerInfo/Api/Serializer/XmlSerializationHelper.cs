@@ -33,7 +33,6 @@ public static class XmlSerializationHelper<T>
                     var descAttr = prop.GetCustomAttribute<XmlDescriptionAttribute>();
                     if (descAttr != null)
                     {
-                        // writer.WriteAttributeString("Description", descAttr.Description);
                         writer.WriteComment(descAttr.Description);
                     }
 
@@ -77,7 +76,7 @@ public static class XmlSerializationHelper<T>
             }
 
             writer.WriteElementString("Gamemode", stats.Gamemode);
-            writer.WriteElementString("ConnectedPlayerCount", stats.ConnectedPlayerCount.ToString());
+            writer.WriteElementString("CurrentNumberOfPlayers", stats.CurrentNumberOfPlayers.ToString());
 
             // Handling Options Dictionary
             if (stats.Options != null)

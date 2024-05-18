@@ -23,12 +23,6 @@ public class WebServerInfoSubModule : MBSubModuleBase
     public override void OnGameInitializationFinished(Game game)
     {
         base.OnGameInitializationFinished(game);
-    }
-
-    public override void OnMissionBehaviorInitialize(Mission mission)
-    {
-        base.OnMissionBehaviorInitialize(mission);
-
         InitialListedGameServerState.OnActivated += OnActivate;
     }
 
@@ -37,6 +31,7 @@ public class WebServerInfoSubModule : MBSubModuleBase
         IWebHost? host = (IWebHost?)ReflectionHelper.GetField(DedicatedCustomServerWebPanelSubModule.Instance, "_host");
         if (host != null)
         {
+            Debug.Print("Stopping webservice...");
             await host.StopAsync();
 
             IWebHostBuilder hostBuilder = WebHost.CreateDefaultBuilder().ConfigureLogging(delegate (ILoggingBuilder logging)
@@ -53,9 +48,9 @@ public class WebServerInfoSubModule : MBSubModuleBase
 
             host = hostBuilder.UseUrls(new[] { @$"http://*:{DedicatedCustomServerWebPanelSubModule.Instance.Port}" }).Build();
 
+            Debug.Print("Restarting webservice...");
             await host.StartAsync();
+            Debug.Print("Started webservice!");
         }
     }
-
 }
-

@@ -51,7 +51,7 @@ public class ServerDetailsController : ControllerBase
         public List<ServerStatsPlayer> Players { get; set; } = new List<ServerStatsPlayer>();
 
         public string? Gamemode { get; set; } = default!;
-        public int ConnectedPlayerCount { get; set; }
+        public int CurrentNumberOfPlayers { get; set; }
 
         [JsonExtensionData]
         public IDictionary<string, object>? Options { get; set; }
@@ -178,7 +178,7 @@ public class ServerDetailsController : ControllerBase
             ServerName = OptionType.ServerName.GetStrValue(),
             Modules = moduleDetails.ToArray(),
             Gamemode = OptionType.GameType.GetStrValue(),
-            ConnectedPlayerCount = MBMultiplayerData.GetCurrentPlayerCount(),
+            CurrentNumberOfPlayers = MBMultiplayerData.GetCurrentPlayerCount(),
             Options = new Dictionary<string, object>(),
         };
 
