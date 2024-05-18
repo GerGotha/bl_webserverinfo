@@ -1,0 +1,17 @@
+<Module>
+  <Name value = "WebServerInfo Server"/>
+  <Id value = "WebServerInfo"/>
+  <Version value = "v1.0.0"/>
+  <ModuleCategory value="Server"/>
+  <SubModules>
+    <SubModule>
+      <Name value = "WebServerInfo_Server"/>
+      <DLLName value = "WebServerInfo_Server.dll"/>
+      <SubModuleClassType value = "WebServerInfo.WebServerInfoSubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="custom" />
+        <Tag key="PlayerHostedDedicatedServer" value="true" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+</Module>

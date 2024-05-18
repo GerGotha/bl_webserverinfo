@@ -1,0 +1,10 @@
+S:\SteamLibrary\steamapps\common\Mount & Blade II Dedicated Server\Modules\MapChangeCrashFix\bin\Win64_Shipping_Server\MapChangeCrashFix_Server.deps.json
+S:\SteamLibrary\steamapps\common\Mount & Blade II Dedicated Server\Modules\MapChangeCrashFix\bin\Win64_Shipping_Server\MapChangeCrashFix_Server.dll
+S:\SteamLibrary\steamapps\common\Mount & Blade II Dedicated Server\Modules\MapChangeCrashFix\bin\Win64_Shipping_Server\MapChangeCrashFix_Server.pdb
+H:\Users\Milan\Documents\Repos\bl_mapchange_crash\BL_MapchangeFreezeFix\obj\Debug\BL_MapchangeFreezeFix.csproj.AssemblyReference.cache
+H:\Users\Milan\Documents\Repos\bl_mapchange_crash\BL_MapchangeFreezeFix\obj\Debug\BL_MapchangeFreezeFix.GeneratedMSBuildEditorConfig.editorconfig
+H:\Users\Milan\Documents\Repos\bl_mapchange_crash\BL_MapchangeFreezeFix\obj\Debug\BL_MapchangeFreezeFix.AssemblyInfoInputs.cache
+H:\Users\Milan\Documents\Repos\bl_mapchange_crash\BL_MapchangeFreezeFix\obj\Debug\BL_MapchangeFreezeFix.AssemblyInfo.cs
+H:\Users\Milan\Documents\Repos\bl_mapchange_crash\BL_MapchangeFreezeFix\obj\Debug\BL_MapchangeFreezeFix.csproj.CoreCompileInputs.cache
+H:\Users\Milan\Documents\Repos\bl_mapchange_crash\BL_MapchangeFreezeFix\obj\Debug\MapChangeCrashFix_Server.dll
+H:\Users\Milan\Documents\Repos\bl_mapchange_crash\BL_MapchangeFreezeFix\obj\Debug\MapChangeCrashFix_Server.pdb

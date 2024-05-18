@@ -1,0 +1,10 @@
+M:\SteamLibrary\steamapps\common\Mount & Blade II Dedicated Server\Modules\HPSyncAntiCheat\bin\Win64_Shipping_Server\HPSyncAntiCheat_Server.deps.json
+M:\SteamLibrary\steamapps\common\Mount & Blade II Dedicated Server\Modules\HPSyncAntiCheat\bin\Win64_Shipping_Server\HPSyncAntiCheat_Server.dll
+M:\SteamLibrary\steamapps\common\Mount & Blade II Dedicated Server\Modules\HPSyncAntiCheat\bin\Win64_Shipping_Server\HPSyncAntiCheat_Server.pdb
+H:\Users\Milan\Documents\Repos\bl_hpsyncanticheat\BL_HPSyncAntiCheat\obj\Debug\BL_HPSyncAntiCheat.csproj.AssemblyReference.cache
+H:\Users\Milan\Documents\Repos\bl_hpsyncanticheat\BL_HPSyncAntiCheat\obj\Debug\BL_HPSyncAntiCheat.GeneratedMSBuildEditorConfig.editorconfig
+H:\Users\Milan\Documents\Repos\bl_hpsyncanticheat\BL_HPSyncAntiCheat\obj\Debug\BL_HPSyncAntiCheat.AssemblyInfoInputs.cache
+H:\Users\Milan\Documents\Repos\bl_hpsyncanticheat\BL_HPSyncAntiCheat\obj\Debug\BL_HPSyncAntiCheat.AssemblyInfo.cs
+H:\Users\Milan\Documents\Repos\bl_hpsyncanticheat\BL_HPSyncAntiCheat\obj\Debug\BL_HPSyncAntiCheat.csproj.CoreCompileInputs.cache
+H:\Users\Milan\Documents\Repos\bl_hpsyncanticheat\BL_HPSyncAntiCheat\obj\Debug\HPSyncAntiCheat_Server.dll
+H:\Users\Milan\Documents\Repos\bl_hpsyncanticheat\BL_HPSyncAntiCheat\obj\Debug\HPSyncAntiCheat_Server.pdb
